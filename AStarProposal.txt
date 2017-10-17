@@ -1,0 +1,24 @@
+Project Proposal
+A* Pathfinding
+
+Create a Node class that represents a space within a Grid. Nodes require
+the ability to hold their own position, a boolean representing their "walkability",
+two distances, and a parent node for backtracking. 
+Then create a grid class to hold a two dimmensional data structure of Nodes, along with helper
+methods to implements the A* pathfinding algorithm.
+Now create a 6x6 grid of nodes, with unwalkable tiles, start, and end as represented by
+AStartPathfinding.png.
+
+The A* Algorithm follows a set of rules as follows
+
+1. Reset all nodes parents, and distances
+2. Create a container to hold the open set of nodes to check(adding the starting nodes)
+3. Compute the node that is closest to both the start and end node, based on Euclidean distance,
+   if two nodes are tied for smallest total distance, choose one based on distance from the end,
+   if those two nodes are tied again, pick one at your discretion
+4. Check if this node is the final node, if not, add every adjacent node to it into the open set,
+   setting their parent to the node that added them into the open set
+5. If a node is already in the open set, compare the total distance, if smaller update the distance,
+   otherwise leave it alone
+6. Repeat step 3,4, and 5 until the end node is found, then compute recursively through the parent
+   of the end node, all nodes on the path back to the start node

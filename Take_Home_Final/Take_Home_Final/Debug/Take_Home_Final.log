@@ -1,0 +1,6 @@
+﻿  Source.cpp
+e:\github\a-pathfinding-project\take_home_final\take_home_final\source.cpp(146): warning C4018: '<' : signed/unsigned mismatch
+e:\github\a-pathfinding-project\take_home_final\take_home_final\source.cpp(179): warning C4018: '<' : signed/unsigned mismatch
+e:\github\a-pathfinding-project\take_home_final\take_home_final\source.cpp(157): warning C4715: 'Grid::findShortestPath' : not all control paths return a value
+  LINK : E:\GitHub\A-Pathfinding-Project\Take_Home_Final\Debug\Take_Home_Final.exe not found or not built by the last incremental link; performing full link
+  Take_Home_Final.vcxproj -> E:\GitHub\A-Pathfinding-Project\Take_Home_Final\Debug\Take_Home_Final.exe
