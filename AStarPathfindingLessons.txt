@@ -1,0 +1,19 @@
+Lesssons Learned:
+- A* Pathfinding
+	- System used to navigate the grid
+	- Generally used in systems involving Euclidian distance, as it makes calculating distances between nodes easier
+	- Chooses next node to process based on distance from start and to end
+- General graph theory
+	- Vertices
+	- Weighted vs Unweighted
+	- Edges
+	- Traversal strategies
+		- Dijkstra
+		- Bredth/Width first
+- Proposals
+	- Interesting experience in learning how to effectively communicate software ideas
+	- Had to submit a proposal and pitch to get approved
+- Shared_ptr 
+	- Useful in keeping track of dynamic objects
+	- Dynamically declared objects are able to be shared in contrast to unique_ptr
+	- Prevents memory leaks due to undeleted objects
